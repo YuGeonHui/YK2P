@@ -105,6 +105,7 @@ public class EventTestListener implements ApplicationListener<DomainEvent> {
 public class EventTestListener {
 
     @EventListener // -> 따라서 이 어노테이션으로 파라미터로 이벤트를 받아 동일하게 사용 가능
+    // @Async -> 비동기 처리 시 사용
     public void handleContextStart(DomainEvent cse) {
         log.info("name = " + cse.getName() + ", age = " + cse.getAge());
         log.info("Handling context started event.");
