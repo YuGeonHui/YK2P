@@ -1,6 +1,6 @@
 #segment
 
-'''swift
+```swift
 //
 //  Homework3ViewController.swift
 //  SYStudy
@@ -154,4 +154,4 @@ class Homework3ViewController: UIViewController {
     }
 }
 
-'''
+```
